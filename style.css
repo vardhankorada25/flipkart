@@ -37,7 +37,7 @@ body
 { 
     position: static;
     height: 250px;
-    width: 1600px;
+    width: 100%;
     border: 2px solid whitesmoke;
    padding-top: 80px;
     background-color: white;
@@ -55,13 +55,13 @@ body
 {
     
     height: 90px;
-    width: 1512px;
+    width: 100%;
     border: 2px solid whitesmoke;
     font-size: xx-large;
     font: weight 500px;
-    margin: 20px;
+    margin: 7px;
     background-color: white;
-    padding-top: 15px;
+    
 }
 
 #i1
@@ -107,17 +107,6 @@ body
     flex-direction: row;
     justify-content: space-evenly;
 }
-.h3
-{
-    height: 90px;
-    width: 1512px;
-    border: 2px solid whitesmoke;
-    font-size: xx-large;
-    font: weight 500px;
-    margin: 20px;
-    background-color: white;
-    padding-top: 15px;
-}
 .cb
 {
     display: flex;
@@ -130,7 +119,7 @@ body
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 10px;
-
+ width: 100%;
 }
 #a
 {
@@ -183,6 +172,19 @@ body
 {
     height: 70px;
     width: 70px;
+}
+.courasel
+{
+    width: 100%;
+}
+
+
+.parent1{
+    display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 10px;
+    width: 100%;
 }
 
 
