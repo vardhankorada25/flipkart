@@ -180,7 +180,7 @@ body
 {
     display: flex;
    justify-content: space-evenly;
-   line-height: 0.5;
+   line-height: 0.4;
    background-color: rgb(33,33,33);
    flex-direction: row;
    color: white;
