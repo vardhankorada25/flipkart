@@ -1,13 +1,16 @@
 body
 {
     background-color: rgb(222, 222, 252);
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .navbar
 {
     width: 100%;
     padding-top: 30px;
     background-color: whitesmoke;
-    position: sticky;
+    
 }
 #bar
 {
@@ -57,10 +60,12 @@ body
     height: 90px;
     width: 100%;
     border: 2px solid whitesmoke;
-    font-size: xx-large;
-    font: weight 500px;
+  
+    font-weight: 600;
     margin: 7px;
     background-color: white;
+    padding-top: 30px;
+    padding-left: 20px;
     
 }
 
@@ -120,6 +125,7 @@ body
  justify-content: space-evenly;
  margin-top: 10px;
  width: 100%;
+ height: auto;
 }
 #a
 {
@@ -145,47 +151,77 @@ body
     flex-flow: row wrap;
     justify-content: space-around;
 }
-.conclusion
-{
-    display: flex;
-   text-align: center;
-   justify-content: center;
-   align-content: center;
-   background-color: white;
-  flex-direction: column;
-   
-}
-.conclusionh:hover
-{
- color: green;
-}
-.conclusionh
-{
-    margin-top: 50px;
-}
-.social
-{
-    height: 100px;
-    width: 100px;
-}
-.social1
-{
-    height: 70px;
-    width: 70px;
-}
-.courasel
-{
-    width: 100%;
-}
-
-
 .parent1{
     display: flex;
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 10px;
     width: 100%;
+    
+}
+.conclusion
+{
+    
+   background-color: rgb(33,33,33);
+   height: 430px
+   
+}
+.heading
+{
+    color: rgb(135, 135, 135);
+    font-weight: 30;
+    padding-bottom: 20px;
+}
+.consumerpolicy
+{
+    padding-right: 40px;
+}
+.conclusion1
+{
+    display: flex;
+   justify-content: space-evenly;
+   line-height: 0.5;
+   background-color: rgb(33,33,33);
+   flex-direction: row;
+   color: white;
+   padding-top: 50px; 
+   padding-bottom: 35px; 
+   height:350px 
+}
+#ch
+{
+    font-weight: bold;
+}
+.part1
+{
+    color:white;
+}
+#img
+{
+    color: yellow;
+}
+.conclusion2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
 }
 
-
-
+.head
+{
+    background-color: white;
+    margin-bottom: 15px;
+    height:450px;
+}
+.head1
+{
+    background-color: white;
+    margin-bottom: 15px;
+    height: 450px;
+}
+.head2
+{
+    background-color: white;
+    height: 450px;
+}
