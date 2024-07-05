@@ -4,6 +4,7 @@ body
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
     display: flex;
     flex-direction: column ;
+    width:auto;
 }
 .navbar
 {
@@ -39,7 +40,7 @@ body
 #navnext
 { 
     height: 250px;
-    width: auto;
+    width:auto ;
     border: 2px solid whitesmoke;
    padding-top: 80px;
     background-color: white;
@@ -182,6 +183,7 @@ body
  justify-content: space-evenly;
  margin-top: 10px;
     width: auto;
+    background-color: white;
     
 }
 .conclusion
@@ -189,6 +191,7 @@ body
     
    background-color: rgb(33,33,33);
    height: 430px
+   width:
    
 }
 .heading
@@ -239,18 +242,21 @@ body
     background-color: white;
     margin-bottom: 15px;
     height:auto;
+     width:auto ;
 }
 .head1
 {
     background-color: white;
     margin-bottom: 15px;
     height:auto;
+    width:auto ;
 }
 .head2
 {
     background-color: white;
     height: auto;
     margin-bottom: 15px;
+    width:auto ;
 }
 .image
 {
