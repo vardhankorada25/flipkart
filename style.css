@@ -3,7 +3,7 @@ body
     background-color: rgb(222, 222, 252);
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column ;
 }
 .navbar
 {
@@ -38,9 +38,8 @@ body
 }
 #navnext
 { 
-    position: static;
     height: 250px;
-    width: 100%;
+    width: auto;
     border: 2px solid whitesmoke;
    padding-top: 80px;
     background-color: white;
@@ -99,7 +98,7 @@ body
 .courasel
 {
     padding-top: 5px;
-    width: 100%;
+    width: auto;
 }
 .c
 {
@@ -112,7 +111,7 @@ body
 {   
     
     display: flex;
-    flex-direction: row;
+    flex-direction : row ;
     justify-content: space-evenly;
     padding-bottom: 20px;
 }
@@ -129,7 +128,7 @@ body
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 10px;
- width: 100%;
+ width: auto;
  height: auto;
 }
 
@@ -182,7 +181,7 @@ body
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 10px;
-    width: 100%;
+    width: auto;
     
 }
 .conclusion
@@ -255,7 +254,7 @@ body
 }
 .image
 {
-    width: 100%;
+    width: auto;
 }
 a:link {
     text-decoration: none;
