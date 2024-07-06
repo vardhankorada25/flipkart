@@ -283,3 +283,40 @@ a:active {
     text-decoration: none;
     color: black;
 }
+@media screen and (max-width:768px) {
+    #navnext
+    {
+        width:100%;
+    }
+    .courasel
+    {
+        width:100%;
+    }
+    .head{
+        width:100%;
+    }
+    .head1
+    {
+        width:100%;
+    }
+    .head2
+    {
+        width:100%;
+    }
+    .image
+    {
+        width:100%;
+    }
+    .parent
+    {
+        width:100%;
+    }
+    .parent1
+    {
+        width:100%;
+    }
+    .conclusion
+    {
+        width:100%;
+    }
+}
