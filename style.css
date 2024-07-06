@@ -4,8 +4,8 @@ body
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
     display: flex;
     flex-direction: column ;
-     box-sizing: contnet-box;
-    width:100%;
+    box-sizing: border-box;
+    margin: 0 ;
 }
 .navbar
 {
@@ -41,7 +41,7 @@ body
 #navnext
 { 
     height: 250px;
-    width:100%;
+    width: 100%;
     border: 2px solid whitesmoke;
    padding-top: 80px;
     background-color: white;
@@ -49,6 +49,7 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
+    margin: 0;
 }
 
 #fa
@@ -100,29 +101,34 @@ body
 .courasel
 {
     padding-top: 5px;
-    width: auto;
+    width: 100%;
+    margin: 0;
+
 }
 .c
 {
     display: flex;
     flex-direction: row ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 20px;
+    width: inherit;
 }
 .ca
 {   
     
     display: flex;
     flex-direction : row ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 20px;
+    width: inherit;
 }
 .cb
 {
     display: flex;
     flex-direction: row ;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 20px;
+    width: inherit;
 }
 .parent
 {
@@ -179,20 +185,21 @@ body
     justify-content: space-around;
 }
 .parent1{
+    background-color: white;
     display: flex;
  flex-direction: row;
  justify-content: space-evenly;
  margin-top: 10px;
     width: 100%;
-    background-color: white;
+    margin: 0;
+
     
 }
 .conclusion
 {
-    
+    margin: 0;
    background-color: rgb(33,33,33);
    height: 430px
-   width:100%;
    
 }
 .heading
@@ -210,6 +217,7 @@ body
     display: flex;
    justify-content: space-evenly;
    line-height: 0.4;
+   margin: 0;
    background-color: rgb(33,33,33);
    flex-direction: row;
    font-size: medium;
@@ -217,6 +225,7 @@ body
    padding-top: 50px; 
    padding-bottom: 35px; 
    height:350px 
+
 }
 #ch
 {
@@ -239,29 +248,32 @@ body
 }
 
 .head
-{
+{     
+    margin: 0;
     background-color: white;
     margin-bottom: 15px;
     height:auto;
-    
+    padding-right: 20px;
 }
 .head1
-{
+{ 
+    margin: 0;
     background-color: white;
     margin-bottom: 15px;
     height:auto;
-    
+    padding-right: 20px;
 }
 .head2
 {
+    margin: 0;
     background-color: white;
     height: auto;
     margin-bottom: 15px;
-    
+    padding-right: 20px;
 }
 .image
 {
-    width: auto;
+    width: 100%;
 }
 a:link {
     text-decoration: none;
@@ -315,6 +327,11 @@ a:active {
     {
         width:100%;
     }
+    .conclusion
+    {
+        width:100%;
+    }
+}
     .conclusion
     {
         width:100%;
