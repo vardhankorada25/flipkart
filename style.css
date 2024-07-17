@@ -1,17 +1,12 @@
-*{
-    margin: 0px;
-     background-color: rgb(222, 222, 252);
-    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
-    display: flex;
-    flex-direction: column ;
-}
-/* body
+body
 {
     background-color: rgb(222, 222, 252);
     font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
     display: flex;
     flex-direction: column ;
-} */
+    box-sizing: border-box;
+    margin: 0 ;
+}
 .navbar
 {
     width: 100%;
