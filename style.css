@@ -106,29 +106,35 @@ body
 
 }
 .c
-{
+{    
+    padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row ;
     justify-content: space-between;
     padding-bottom: 20px;
-    width: inherit;
+    
 }
 .ca
 {   
     
+    padding: 0px;
     display: flex;
     flex-direction : row ;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-bottom: 20px;
-    width: inherit;
+    width:100%
 }
 .cb
-{
+{   
+    padding: 0px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row ;
     justify-content: space-between;
     padding-bottom: 20px;
-    width: inherit;
+   
 }
 .parent
 {
@@ -250,26 +256,29 @@ body
 .head
 {     
     margin: 0;
+    width: 100%;
     background-color: white;
     margin-bottom: 15px;
     height:auto;
-    padding-right: 20px;
+    
 }
 .head1
 { 
     margin: 0;
+    width: 100%;
     background-color: white;
     margin-bottom: 15px;
     height:auto;
-    padding-right: 20px;
+   
 }
 .head2
 {
     margin: 0;
+    width: 100%;
     background-color: white;
     height: auto;
     margin-bottom: 15px;
-    padding-right: 20px;
+    
 }
 .image
 {
@@ -294,44 +303,21 @@ a:hover {
 a:active {
     text-decoration: none;
     color: black;
+
 }
-@media screen and (max-width:768px) {
-    #navnext
-    {
-        width:100%;
-    }
-    .courasel
-    {
-        width:100%;
-    }
-    .head{
-        width:100%;
-    }
-    .head1
-    {
-        width:100%;
-    }
-    .head2
-    {
-        width:100%;
-    }
-    .image
-    {
-        width:100%;
-    }
-    .parent
-    {
-        width:100%;
-    }
-    .parent1
-    {
-        width:100%;
-    }
-    .conclusion
-    {
-        width:100%;
-    }
+.mobiles1
+{
+    width: 33.3%;
 }
+@media only screen and (min-width:897px) {
+    c{
+        flex-wrap:nowrap;
+       }
+    .mobiles
+    {
+     display: none;
+    } 
+ }
     .conclusion
     {
         width:100%;
