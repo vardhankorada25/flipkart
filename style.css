@@ -96,7 +96,7 @@ body
 }
 #c1p2
 {
-    padding-right: 50px;
+    padding-right: 30px;
 }
 .courasel
 {
@@ -122,7 +122,7 @@ body
     display: flex;
     flex-direction : row ;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 20px;
     width:100%
 }
@@ -193,7 +193,7 @@ body
 .parent1{
     background-color: white;
     display: flex;
- flex-direction: row;
+ flex-flow: row wrap;
  justify-content: space-evenly;
  margin-top: 10px;
     width: 100%;
@@ -201,6 +201,7 @@ body
 
     
 }
+
 .conclusion
 {
     margin: 0;
@@ -222,11 +223,11 @@ body
 {
     display: flex;
    justify-content: space-evenly;
-   line-height: 0.4;
+   line-height: 1;
    margin: 0;
    background-color: rgb(33,33,33);
    flex-direction: row;
-   font-size: medium;
+   font-size: small;
    color: white;
    padding-top: 50px; 
    padding-bottom: 35px; 
@@ -251,6 +252,7 @@ body
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 20px;
+    
 }
 
 .head
@@ -305,21 +307,29 @@ a:active {
     color: black;
 
 }
-.mobiles1
-{
-    width: 33.3%;
-}
-@media only screen and (min-width:897px) {
+
+@media only screen and (min-width:1020px) {
     c{
         flex-wrap:nowrap;
        }
-    .mobiles
+    .ccard
     {
      display: none;
     } 
- }
-    .conclusion
-    {
-        width:100%;
+
+    .parent1{
+        flex-wrap: nowrap;
     }
-}
+    .conclusion1
+    {
+        line-height: 0.4;
+        font-size: medium;
+    }
+ }
+ @media only screen and (max-width:1020px)
+ {
+    .conclusion2
+    {
+        font-size: small;
+    }
+ }
