@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter_regular, fallback-inter_regular, Arial, sans-serif;
+}
+.nav
+{
+    width: 100%;
+    height: 55.99px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-right: 140px;
+    padding-left: 60px;
+}
+.brand-logo
+{   
+    padding-left: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-search
+{
+    height: 35.99px;
+    width:  350px;
+    border: 2px white;
+    padding:0px 16px;
+}
+.search
+{
+    background-color: white;
+    border: 2px solid white;
+    height: 35.99px;
+    width: 41px;
+    padding: 4px 12px 0px 8px;
+    border-left: 0px; 
+  
+}
+.search-icon
+{
+    height: 20px;
+    width: 20px; 
+    cursor: pointer; 
+   
+}
+.search-field
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.choice
+{
+   height: 40px;
+   width: 100%; 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: black;
+   box-shadow: 0px 2px 1px    rgba(0, 0, 0, 0.1);
+   padding-left: 40px;
+   padding-right: 10px;
+   font-style: bolder;
+   font-size: 95%;
+}
+.side-menu
+{
+    width:25%;
+    height: auot;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1),-2px -2px 1px    rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    gap:5px;
+    color: black;
+}
+.fliter{
+    font-size: larger;
+}
+.categories-h
+{
+    display: flex;
+    flex-direction: row;
+}
+#toggler
+{
+    cursor: pointer;
+}
+#toggle
+{
+    display: none;
+}
+#toggle1
+{
+    display: none;
+}
+.furniture
+{
+    padding: 10px;
+}
+.list
+{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.list-out
+{
+    display: none;
+    padding-bottom: 5px;
+}
+.show
+{
+    color: blue;
+}
+#toggle:checked~.list-out
+{
+    display: flex;
+}
+.list1
+{
+    display: none;
+}
+#toggle1:checked~.list
+{
+    display: flex;
+}
+.price
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: large;
+    border-top: 1px solid  rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 100%;
+}
+.range
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+.supercoin
+{
+
+    padding: 15px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+}
+.img
+{
+    width: 100px;
+    height: 37px;
+    padding-top: 7px;
+}
+.assure
+{
+    padding: 15px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+}
+#brand-choice
+{  
+   display: none;
+}
+.brand
+{   
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;  
+}
+.brand-selection
+{
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+.brand-h
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.select
+{
+    list-style: none;
+    
+}
+.search-brand
+{
+    border: 2px solid white;
+    width: 90%;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+}
+.select
+{
+    padding-top: 15px;
+}
+#brand-choice:checked~.brand-selection
+{
+    display: block;
+}
+.coustmer
+{
+    padding-top: 10px;
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+#rating
+{
+    display: none;
+}
+.coustmer-rating
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right:15px ;
+    
+}
+#offer
+{
+    display: none;
+}
+.offer-h
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right:15px ;
+}
+.offer
+{   
+    padding-top: 10px;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.border1
+{
+    border-bottom: 1px solid  rgba(0, 0, 0, 0.1);
+}
+.discount-h
+{
+    display: flex;
+   padding-right: 15px;
+    justify-content: space-between;
+}
+.main1
+{
+    box-shadow: 2px 2px 1px    rgba(0, 0, 0, 0.1),-2px -2px 1px    rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: 77%;
+    padding-bottom: 10px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+div h3
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 16px;
+}
+.part
+{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1
+{
+    width:20%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.img1 img{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.heading
+{   
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.img1:hover{
+    box-shadow: 2px 2px 1px .5px   rgba(0, 0, 0, 0.1),-2px -2px 1px .5px   rgba(0, 0, 0, 0.1);
+}
+.conclusion
+{
+    margin: 0;
+   background-color: rgb(33,33,33);
+   height: 430px
+   
+}
+.conclusion2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    background-color: rgb(33,33,33);
+}
+.conclusion1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: rgb(33,33,33);
+    flex-direction: row;
+    font-size: 95%;
+    line-height: 130%;
+    color: white;
+    padding-top: 3.5%; 
+    padding-bottom: 35px; 
+    padding-left: 1%;
+    padding-right: 1.2%;
+    height:350px;
+}
+.mailus
+{
+    padding-left: 1.2%;
+    line-height: 150%;
+}
+.registerdadderss
+{
+    line-height: 150%;
+}
+.part1
+{
+    color:white;
+}
+.consumerpolicy
+{
+    padding-right: 40px;
+}
+.headings
+{
+    color: rgb(135, 135, 135);
+    font-weight: 30;
+    padding-bottom: 20px;
+    font-size: 100%;
+}
+#ch {
+    font-weight: bold;
+}
+@media only screen and (min-width:1020px)
+{
+    .heading{
+        font-size: 75%;
+    }
+   
+}
+
+@media only screen and (max-width:1020px) {
+    .conclusion2 {
+        font-size: small;
+    }
+}
